@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Thymeleaf Test</title>
+</head>
+<body>
+	<h1>Thymeleaf Test</h1>
+	<div th:each="user:${userList}">
+		<span th:text="${user.id}">aaaa</span><br/>
+		<span th:text="${user.name}">bbbb</span><br/>
+		<span th:text="${user.email}">cccc</span><br/>
+	</div>
+</body>
+
+</html>
